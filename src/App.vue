@@ -2,7 +2,7 @@
   <div id="app">
     
 
-   
+   <my-header></my-header>
    
     <div id="wrapper">
 
@@ -471,3 +471,13 @@
 }
 */
 </style>
+
+
+<script>
+import Header from './components/Header'
+  export default {
+     components:{
+         'my-header':Header
+     }
+  }
+</script>
